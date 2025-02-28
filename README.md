@@ -25,7 +25,7 @@ git clone https://github.com/emmacyberia/cavebot-fiesta.git
 cd cavebot-fiesta
 
 # create a conda environment and install dependencies
-conda env create -f environment.yml
+conda env create --name cavebot-fiesta -f environment.yml
 
 # activate the environment
 conda activate cavebot-fiesta
