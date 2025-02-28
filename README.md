@@ -13,6 +13,35 @@ This repository also includes [autofishing](https://github.com/emmacyberia/caveb
 
 ## Usage
 
+### Prerequisites
+
+>[!NOTE]
+>Ensure that you have [Conda](https://www.anaconda.com/download/) installed on your system.
+
+```bash
+# clone this repository
+git clone https://github.com/emmacyberia/cavebot-fiesta.git
+
+cd cavebot-fiesta
+
+# create a conda environment and install dependencies
+conda env create -f environment.yml
+
+# activate the environment
+conda activate cavebot-fiesta
+```
+
+>[!NOTE]
+>Before running, ensure that the configuration file is set up properly.
+>Edit the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/env/cavebot-fiesta/core/config.py) to match your desired settings.
+
+### Run cavebot-fiesta
+
+```bash
+# run the cavebot
+python cavebot-fiesta/main.py
+```
+
 Before running, set up the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/main/cavebot-fiesta/core/antiga/config.py).
 
 >[!NOTE]
