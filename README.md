@@ -33,7 +33,7 @@ conda activate cavebot-fiesta
 
 >[!NOTE]
 >Before running, ensure that the configuration file is set up properly.
->Edit the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/env/cavebot-fiesta/core/config.py) to match your desired settings.
+>Edit the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/main/cavebot-fiesta/core/nostalther/config.py) to match your desired settings.
 
 ### Run cavebot-fiesta
 
@@ -42,7 +42,7 @@ conda activate cavebot-fiesta
 python cavebot-fiesta/main.py
 ```
 
-Before running, set up the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/main/cavebot-fiesta/core/antiga/config.py).
+Before running, set up the [configuration file](https://github.com/emmacyberia/cavebot-fiesta/blob/main/cavebot-fiesta/core/nostalther/config.py).
 
 >[!NOTE]
 >Execute [locateOnScreen.py](https://github.com/emmacyberia/cavebot-fiesta/blob/main/utils/locateOnScreen.py) to capture coordinates. Hover your mouse over desired locations while the script runs, and save the X,Y coords in the configuration file.
